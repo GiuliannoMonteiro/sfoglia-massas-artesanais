@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="imagens/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Sfoglia Massas Artesanais</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/logo-navbar.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="./index.html" class="inicio"><p>Inicio</p></a></li>
+                <li><a href="menu" class="menu"><p>Menu</p></a></li>
+                <li><a href="sobre" class="sobre-name"><p>Sobre</p></a></li>
+            </ul>
+        </nav>
+        <div class="busca-insta">
+            <a href="https://www.instagram.com/sfoglia_massas?igshid=YzVkODRmOTdmMw=="><i class='bx bxl-instagram' ></i></a>
+            <a href="menu"><i class='bx bx-search'></i></a>
+        </div>
+    </header>
+    <section class="apresent">
+        <div class="desc">
+            <h1>FETTUCCINE À CARBONARA</h1>
+            <p>Saboreie a elegância simples do nosso Fettuccine Carbonara. Nossa massa fresca se une a um molho cremoso com ovos, queijo parmesão, bacon crocante e pimenta preta. Cada garfada é uma celebração de sabores autênticos. Uma escolha clássica para momentos especiais.</p>
+            <button onclick="menuDirect()">Veja mais</button>
+        </div>
+        <img src="imagens/5.avif" alt="1">
+    </section>
+    <hr>
+    <section class="pratos">
+        <h1>Pratos</h1>
+        <div class="pratos-grid">
+            <div class="pratos-content">
+                <img src="imagens/1.avif" alt="foto">
+                <div class="prato-desc">
+                    <h2>TILÁPIA AO ALHO & ÓLEO</h2>
+                    <p>Saboreie a perfeição em cada garfada com nossa Tilápia selada, acompanhada de Fettuccine fresco em um irresistível molho de alho & óleo. Uma combinação de sabores delicados e texturas suculentas para uma experiência culinária única. Uma explosão de frescor e simplicidade no seu prato. Bom apetite!</p>
+                </div>
+            </div>
+            <div class="pratos-content">
+                <img src="imagens/2.avif" alt="foto">
+                <div class="prato-desc">
+                    <h2>RAVIOLI 3 QUEIJOS AO MOLHO POMODORO</h2>
+                    <p>Massa fresca recheada com uma mistura irresistível de queijos, regada ao delicioso molho pomodoro.</p>
+                </div>
+            </div>
+            <div class="pratos-content">
+                <img src="imagens/3.avif" alt="foto">
+                <div class="prato-desc">
+                    <h2>FETTUCCINE COM CAMARÃO AO POMODORO</h2>
+                    <p>Experimente nosso Fettuccine fresco com camarões em um delicioso molho pomodoro, realçado com tomates cereja. Uma mistura perfeita de sabores autênticos e texturas, este prato oferece uma experiência italiana de alta qualidade. Bom apetite!</p>
+                </div>
+            </div>
+            <div class="pratos-content">
+                <img src="imagens/4.avif" alt="foto">
+                <div class="prato-desc">
+                    <h2>FETTUCCINE À CARBONARA COM CHARQUE</h2>
+                    <p>Queijo parmesão, ovos, charque em cubos e fettuccine artesanal.</p>
+                </div>
+            </div>
+        </div>
+        <button onclick="menuDirect()">Veja mais</button>
+    </section>
+    <hr>
+    <section class="sobre">
+        <h1>Sobre</h1>
+        <div class="sobre-content">
+            <img src="imagens/logo.png" alt="foto">
+            <div class="sobre-desc">
+                <p>Bem-vindo à Sfoglia Massas Artesanais, o destino primoroso para os amantes da gastronomia autêntica e apaixonados por sabores genuínos. Nossa jornada começa com a devoção à tradição, habilmente combinada com uma pitada de inovação, resultando em uma experiência gastronômica única. <br><br> Na Sfoglia, cada massa é uma obra de arte, meticulosamente criada por nossos mestres artesãos. Inspirados pelas receitas ancestrais da culinária italiana, dedicamos tempo e cuidado na seleção dos melhores ingredientes, garantindo a excelência em cada pedaço de massa que produzimos.</p>
+                <button onclick="sobre()">Veja mais</button>
+            </div>
+        </div>
+    </section>
+    <div class="mobile">
+        <ul>
+            <li><a href="./index.html"><i class='bx bx-home'></i><p>Inicio</p></a></li>
+            <li><a href="./menu/"><i class='bx bx-food-menu'></i><p>Menu</p></a></li>
+            <li><a href="./sobre/"><i class='bx bx-store-alt'></i><p>Sobre</p></a></li>
+        </ul>
+    </div>
+    <footer>
+        <img src="https://i.postimg.cc/GtVrt312/Design-sem-nome-3-removebg-preview.png" alt="foto">
+        <div class="contact">
+          <p>Contato: (81) 9 9370-9170</p>
+          <p>Email: fienotagliatelle@gmail.com</p>
+        </div>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>

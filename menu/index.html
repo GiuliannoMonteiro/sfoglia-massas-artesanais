@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../imagens/logo.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sfoglia Massas Artesanais - Menu</title>
+</head>
+<body>
+    <header>
+        <img src="../imagens/logo-navbar.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="../index.html" class="inicio"><p>Inicio</p></a></li>
+                <li><a href="../menu/" class="menu"><p>Menu</p></a></li>
+                <li><a href="../sobre/" class="sobre-name"><p>Sobre</p></a></li>
+            </ul>
+        </nav>
+        <div class="busca-insta">
+            <a href="https://www.instagram.com/sfoglia_massas?igshid=YzVkODRmOTdmMw=="><i class='bx bxl-instagram' ></i></a>
+            <a href="../menu/"><i class='bx bx-search'></i></a>
+        </div>
+    </header>
+    <div class="busca">
+        <div class="content-div">
+            <input type="text" id="searchInput" placeholder="Pesquisar...">
+            <button class="pesq" onclick="search()"><i class='bx bx-search'></i></button>
+        </div>
+    </div>
+    <section class="results" id="results">
+
+    </section>
+    <div id="productDetails">
+        <i class='bx bx-x'></i>
+        <div id="detailsContent">
+          
+        </div>
+    </div>
+    <div class="mobile">
+        <ul>
+            <li><a href="../index.html"><i class='bx bx-home'></i><p>Inicio</p></a></li>
+            <li><a href="../menu/"><i class='bx bx-food-menu'></i><p>Menu</p></a></li>
+            <li><a href="../sobre/"><i class='bx bx-store-alt'></i><p>Sobre</p></a></li>
+        </ul>
+    </div>
+    <footer>
+        <img src="https://i.postimg.cc/GtVrt312/Design-sem-nome-3-removebg-preview.png" alt="foto">
+        <div class="contact">
+          <p>Contato: (81) 9 9370-9170</p>
+          <p>Email: fienotagliatelle@gmail.com</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
